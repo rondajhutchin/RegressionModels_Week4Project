@@ -1,0 +1,35 @@
+---
+title: "RegressionModel_Week4_AssignedProject"
+author: "Ronda Hutchin"
+date: "10/25/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+EXECUTIVE SUMMARY
+This report is for Motor Trend Magazine, and for the purpose the purpose is to (A) analyzing a data set of a collection of cars,  (B) explore the relationship between a set of variables and miles per gallon (MPG) (outcome) and (C) answer the two questions listed below.
+
+(1) “Is an automatic or manual transmission better for MPG”?
+(2) "Quantify the MPG difference between automatic and manual transmissions"?
+
+```
+library(ggplot2)
+data(mtcars)
+
+summary(mtcars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
